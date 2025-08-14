@@ -21,7 +21,7 @@ class ResponseObjects(BaseModel):
 
 class InferlessPythonModel:
     def initialize(self):
-        model_name = "Qwen/Qwen3-30B-A3B-Instruct-2507"
+        model_name = "Qwen/Qwen3-4B-Instruct-2507"
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name,
