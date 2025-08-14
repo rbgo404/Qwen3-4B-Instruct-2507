@@ -1,7 +1,7 @@
 # Template – Deploy Qwen3-4B-Instruct-2507 for Efficient Instruction Following  
 Qwen3-4B-Instruct-2507 is an open-source, 4-billion-parameter dense large language model from Alibaba Cloud’s Qwen3 family, optimized for fast, accurate instruction execution.
 
-Its **Instruct-2507** update refines general capabilities—boosting performance in mathematics, science, coding, logical reasoning, and multilingual tasks—plus substantially enhancing long-context comprehension with native support for up to 256K token windows.
+Its **Instruct-2507** update refines general capabilities—boosting performance in mathematics, science, coding, logical reasoning, and multilingual tasks plus substantially enhancing long-context comprehension with native support for up to 256K token windows.
 
 Unlike its “thinking” counterpart, it operates in non-thinking mode only—omitting explicit `<think></think>` blocks for immediate, concise responses. Its architecture remains compact yet competitive: a 36-layer transformer with 32 Q-heads and 8 KV-heads, running efficiently under the Apache-2.0 license.
 
