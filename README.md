@@ -1,10 +1,11 @@
-# Template - Deploy Qwen3-Coder-30B-A3B-Instruct using Inferless 
-Qwen3-Coder-30B-A3B-Instruct is an open-source, 30.5B-parameter Mixture-of-Experts (MoE) large language model built by Alibaba Cloud’s Qwen team and purpose-tuned for code generation and agentic tool use.
+# Template – Deploy Qwen3-4B-Instruct-2507 for Efficient Instruction Following  
+Qwen3-4B-Instruct-2507 is an open-source, 4-billion-parameter dense large language model from Alibaba Cloud’s Qwen3 family, optimized for fast, accurate instruction execution.
 
-Its **A3B** configuration activates only 3.3B weights, 8 of 128 experts—during inference, enabling throughput comparable to models one-tenth its total size while scoring ≈94 % pass@1 on HumanEval and other coding suites.
-Native support for a 256k token context window (extendable to 1M tokens with YaRN) lets the model reason across whole repositories or lengthy chats without chunking.
+Its **Instruct-2507** update refines general capabilities—boosting performance in mathematics, science, coding, logical reasoning, and multilingual tasks—plus substantially enhancing long-context comprehension with native support for up to 256K token windows.
 
-Its chat template natively understands JSON tool definitions, enabling reliable function invocation in agent frameworks. The model has been released under the permissive Apache-2.0 license, the model can be freely integrated into commercial workflows.
+Unlike its “thinking” counterpart, it operates in non-thinking mode only—omitting explicit `<think></think>` blocks for immediate, concise responses. Its architecture remains compact yet competitive: a 36-layer transformer with 32 Q-heads and 8 KV-heads, running efficiently under the Apache-2.0 license.
+
+From the leaderboards, Instruct-2507 shows remarkable gains across benchmarks—like MMLU, GPQA, AIME25, coding tests, and alignment metrics—often outperforming its baseline non-thinking sibling and matching or exceeding behavior of much larger models.
 
 
 ## TL;DR:
