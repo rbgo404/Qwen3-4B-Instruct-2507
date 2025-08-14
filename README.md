@@ -9,7 +9,7 @@ From the leaderboards, Instruct-2507 shows remarkable gains across benchmarks—
 
 
 ## TL;DR:
-- Deployment of Qwen3-Coder-30B-A3B-Instruct model using [transformers](https://github.com/huggingface/transformers).
+- Deployment of Qwen3-4B-Instruct-2507 model using [transformers](https://github.com/huggingface/transformers).
 - Dependencies defined in `inferless-runtime-config.yaml`.
 - GitHub/GitLab template creation with `app.py`, `inferless-runtime-config.yaml` and `inferless.yaml`.
 - Model class in `app.py` with `initialize`, `infer`, and `finalize` functions.
